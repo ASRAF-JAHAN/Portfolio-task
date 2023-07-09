@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* works of header tag */
+.main-container{
+    /* width: 100%; */
+    background-image: url("../images/banner/banner2.png");
+    background-size:cover;
+    background-position: center;
+    height: 80vh;
+    display:flex;
+    justify-content: end;
+    background-repeat: no-repeat;
+    align-items: center;
+
+}
+.textes{
+    margin-right: 200px;
+    text-align: right;
+}
+.head{
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+     
+}
+.pragh{
+    color: #444343;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px
+}
+.btn{
+   padding: 12px 20px;
+   background-color: #F15B22;
+   border: 0;
+   border-radius: 5px;
+   color: white;
+}
