@@ -81,12 +81,13 @@
 }
 .logos{
     display: flex;
-    gap: 50px;
+    gap: 5px;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     width:80%;
     margin: auto;
+    margin-bottom: 50px;
 }
 .watch{
     width: 1140px;
@@ -94,12 +95,8 @@
     background-image: url("../images/watch.png"),linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
     background-blend-mode: overlay;
     background-position: center;
-    margin-bottom: 50px;
     align-items: center;
-    margin-top:30px ;
     border-radius: 8px;
-    margin-left: 40px;
-    margin-right: 40px;
     margin: auto;
 
 }
@@ -128,7 +125,15 @@
     height: 577px;
     color: #FFF;
     padding: 50px 50px;
+    /* margin-top:80px; */
+    margin: auto;
     
+}
+.left{
+    margin: auto;
+}
+.right{
+    margin: auto;
 }
 .fuuu{
     font-size: 45px;
@@ -138,8 +143,7 @@
     font-size: 16px;
     font-weight: 400;
     width:50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
 }
 .ema{
     font-size: 16px;
